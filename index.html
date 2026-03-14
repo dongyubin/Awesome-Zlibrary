@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Library导航 - 官方镜像网站及替代平台合集(2026最新版)</title>
+    <meta name="keywords" content="Z-Library,电子书,免费电子书,PDF下载,图书搜索,Zlib,Anna's Archive,Library Genesis,Project Gutenberg,Book Searcher,中文电子书">
+    <meta name="description" content="2026最新Z-Library导航站，汇总官方镜像网站、Anna's Archive、Library Genesis、Project Gutenberg等平台的电子书资源。支持中文搜索，无需注册即可下载，包含客户端和手机APP。">
+    <meta name="author" content="Z-Library导航">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Z-Library导航 - 官方镜像网站及替代平台合集(2026最新版)">
+    <meta property="og:description" content="2026最新Z-Library导航站，汇总官方镜像网站、Anna's Archive、Library Genesis、Project Gutenberg等平台的电子书资源。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zlib.wwkejishe.top/">
+    <meta property="og:site_name" content="Z-Library导航">
+    <meta property="og:locale" content="zh_CN">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Z-Library导航 - 官方镜像网站及替代平台合集">
+    <meta name="twitter:description" content="2026最新Z-Library导航站，汇总多个电子书平台的资源链接">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://zlib.wwkejishe.top/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="files/zlibrary-icon.svg">
+    <link rel="icon" type="image/png" href="files/zlibrary-icon-48.png">
+    <link rel="apple-touch-icon" href="files/zlibrary-icon-192.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Additional SEO meta tags -->
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="referrer" content="origin">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --primary-light: #6366f1;
+            --secondary: #f59e0b;
+            --success: #10b981;
+            --danger: #ef4444;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --text-tertiary: #6b7280;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f9fafb;
+            --bg-tertiary: #f3f4f6;
+            --border: #e5e7eb;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-secondary);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: var(--shadow-md);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo i {
+            font-size: 2.5rem;
+            color: var(--secondary);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary);
+        }
+
+        .stat-item p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--bg-primary);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, var(--primary-light) 0%, var(--primary) 100%);
+            color: white;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        /* Quick Access */
+        .quick-access {
+            background: var(--bg-tertiary);
+            padding: 2rem 0;
+            margin: 2rem 0;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .quick-access h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .quick-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .quick-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: white;
+            color: var(--primary);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .quick-link:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Section Styles */
+        section {
+            background: var(--bg-primary);
+            margin: 2rem 0;
+            padding: 3rem 0;
+            border-radius: 12px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-header h2 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Official URLs Table */
+        .urls-table {
+            overflow-x: auto;
+            border-radius: 8px;
+            box-shadow: var(--shadow-md);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: var(--bg-secondary);
+            font-weight: 700;
+            color: var(--text-primary);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        tr:hover {
+            background: var(--bg-secondary);
+        }
+
+        .url-cell a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .url-cell a:hover {
+            color: var(--primary-dark);
+        }
+
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-weight: 500;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        /* Mirror Sites Grid */
+        .mirror-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .mirror-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+        }
+
+        .mirror-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .mirror-card h3 {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .mirror-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .mirror-card a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .mirror-card a:hover {
+            color: var(--primary-dark);
+        }
+
+        /* Client Download Section */
+        .client-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .client-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .client-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .client-header {
+            background: var(--bg-secondary);
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .client-header h3 {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .client-body {
+            padding: 1rem;
+        }
+
+        .client-body p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .client-body a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .client-body a:hover {
+            color: var(--primary-dark);
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            background: var(--bg-primary);
+            padding: 3rem 0;
+            margin: 2rem 0;
+        }
+
+        .faq-grid {
+            max-width: 800px;
+            margin: 2rem auto 0;
+        }
+
+        .faq-item {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .faq-question {
+            padding: 1rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-secondary);
+            transition: background 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .faq-question h3 {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+        }
+
+        .faq-toggle {
+            color: var(--text-tertiary);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            max-height: 500px;
+        }
+
+        .faq-answer p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-primary);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        .footer-content p {
+            opacity: 0.8;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        /* GitHub Link */
+        .github-link:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-content > div:last-child {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .stats {
+                gap: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .mirror-grid,
+            .client-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .urls-table {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .mirror-card,
+        .client-card {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .mirror-card:nth-child(1) { animation-delay: 0.1s; }
+        .mirror-card:nth-child(2) { animation-delay: 0.2s; }
+        .mirror-card:nth-child(3) { animation-delay: 0.3s; }
+        .client-card:nth-child(1) { animation-delay: 0.1s; }
+        .client-card:nth-child(2) { animation-delay: 0.2s; }
+        .client-card:nth-child(3) { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <a href="#" class="logo">
+                        <i class="fas fa-book-open"></i>
+                        Z-Library导航
+                    </a>
+                    <p class="subtitle">官方镜像网站及替代平台合集(2026最新版)</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 2rem;">
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>2300万+</h3>
+                            <p>电子书资源</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>8400万+</h3>
+                            <p>学术文章</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>免费访问</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/dongyubin/Awesome-Zlibrary" target="_blank" class="github-link" style="display: flex; align-items: center; gap: 0.5rem; color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 8px; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); transition: all 0.3s ease;">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>世界上最大的电子图书馆</h1>
+            <p>
+                超过<span class="highlight">23,000,000</span>书籍和<span class="highlight">84,837,000</span>学术文章<br>
+                涵盖文学著作，小说，理工学科，人文艺术，以及学术论文等应有尽有！
+            </p>
+            <div class="quick-links" style="margin-top: 2rem;">
+                <a href="https://z-lib.by" target="_blank" class="quick-link">
+                    <i class="fas fa-rocket"></i>
+                    z-lib.by
+                </a>
+                <a href="https://z-lib.su" target="_blank" class="quick-link">
+                    <i class="fas fa-shield-alt"></i>
+                    z-lib.su
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Quick Access -->
+        <div class="quick-access">
+            <h2><i class="fas fa-star"></i> 快速访问</h2>
+            <div class="quick-links">
+                <a href="#official-urls" class="quick-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    官方网址
+                </a>
+                <a href="#mirror-sites" class="quick-link">
+                    <i class="fas fa-copy"></i>
+                    镜像网站
+                </a>
+                <a href="#client-download" class="quick-link">
+                    <i class="fas fa-download"></i>
+                    客户端下载
+                </a>
+                <a href="#alternatives" class="quick-link">
+                    <i class="fas fa-exchange-alt"></i>
+                    替代平台
+                </a>
+                <a href="#faq" class="quick-link">
+                    <i class="fas fa-question-circle"></i>
+                    常见问题
+                </a>
+            </div>
+        </div>
+
+        <!-- Official URLs -->
+        <section id="official-urls">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-building"></i> Zlibrary最新官方网址</h2>
+                    <p>更新日期：2026年3月14日 | 仅显示已验证可访问的网址</p>
+                </div>
+                <div class="urls-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>官方网址</th>
+                                <th>访问状态</th>
+                                <th>说明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://z-lib.by" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://z-lib.by
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>主官网，需要代理</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.zlib.li" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.zlib.li
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>中文版，2026年1月17日更新</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.101wes.online" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.101wes.online
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>官方镜像站点</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.z-lib.gd" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.z-lib.gd
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>官方镜像站点</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.z-library.sk" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.z-library.sk
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>官方镜像站点</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.101su.ru" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.101su.ru
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>官方镜像站点</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.intcn.online" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.intcn.online
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>官方地址</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://zh.z-lib.rest" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://zh.z-lib.rest
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>官方地址</td>
+                            </tr>
+                            <tr>
+                                <td class="url-cell">
+                                    <a href="https://intl.su" target="_blank">
+                                        <i class="fas fa-check-circle"></i>
+                                        https://intl.su
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="status success">
+                                        <i class="fas fa-check"></i>
+                                        可访问
+                                    </span>
+                                </td>
+                                <td>镜像地址</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mirror Sites -->
+        <section id="mirror-sites">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-clone"></i> 其他镜像网站</h2>
+                    <p>包含非官方镜像站点和替代平台</p>
+                </div>
+                <div class="mirror-grid">
+                    <div class="mirror-card">
+                        <h3><i class="fas fa-search"></i> Book Searcher</h3>
+                        <p>Z-Library 书籍搜索工具，支持多种格式和快速下载</p>
+                        <a href="https://zlib.pseudoyu.com/" target="_blank">立即访问 →</a>
+                    </div>
+                    <div class="mirror-card">
+                        <h3><i class="fas fa-search"></i> Book Searcher 2</h3>
+                        <p>另一个书籍搜索平台，提供更友好的用户界面</p>
+                        <a href="https://zlibrary.shuziyimin.org/" target="_blank">立即访问 →</a>
+                    </div>
+                    <div class="mirror-card">
+                        <h3><i class="fas fa-archive"></i> Anna's Archive</h3>
+                        <p>安娜的档案 - 包含Z-Library资源的备份网站</p>
+                        <a href="https://zh.annas-archive.org/" target="_blank">立即访问 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Download -->
+        <section id="client-download">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-download"></i> 客户端下载</h2>
+                    <p>官方和第三方客户端，无需代理即可使用</p>
+                </div>
+                <div class="client-grid">
+                    <div class="client-card">
+                        <div class="client-header">
+                            <h3><i class="fas fa-desktop"></i> 官方客户端</h3>
+                        </div>
+                        <div class="client-body">
+                            <p>支持 Windows、macOS、Android 多平台，稳定可靠。下载后需要将文件后缀修改：Windows改为.exe，MacOS改为.dmg，Android改为.apk</p>
+                            <a href="https://pan.quark.cn/s/b0efe37e940c" target="_blank">
+                                <i class="fas fa-link"></i>
+                                夸克网盘下载链接
+                            </a>
+                        </div>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-header">
+                            <h3><i class="fas fa-code-branch"></i> O-lib 开源客户端</h3>
+                        </div>
+                        <div class="client-body">
+                            <p>免费开源的 Z-Library 电子书下载工具，无需注册，无限下载额度</p>
+                            <a href="https://github.com/shiyi-0x7f/o-lib" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub 仓库
+                            </a>
+                        </div>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-header">
+                            <h3><i class="fas fa-cloud-download-alt"></i> O-lib 客户端合集</h3>
+                        </div>
+                        <div class="client-body">
+                            <p>Windows、macOS、Android 各个版本的 O-lib 下载地址</p>
+                            <a href="https://pan.quark.cn/s/10e2a0ca35f9" target="_blank">
+                                <i class="fas fa-link"></i>
+                                夸克网盘下载链接
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alternatives -->
+        <section id="alternatives">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-exchange-alt"></i> 替代平台</h2>
+                    <p>除了 Z-Library，这些网站也提供丰富的电子书资源</p>
+                </div>
+                <div class="mirror-grid">
+                    <div class="mirror-card">
+                        <h3><i class="fas fa-book"></i> Library Genesis</h3>
+                        <p>创世纪图书馆，提供大量学术资源和书籍下载</p>
+                        <a href="https://libgen.gs" target="_blank">访问网站 →</a>
+                    </div>
+                    <div class="mirror-card">
+                        <h3><i class="fas fa-book"></i> Project Gutenberg</h3>
+                        <p>古登堡计划，超过6万本免费公版电子书</p>
+                        <a href="https://www.gutenberg.org" target="_blank">访问网站 →</a>
+                    </div>
+                    <div class="mirror-card">
+                        <h3><i class="fas fa-book"></i> Internet Archive</h3>
+                        <p>互联网档案馆，包含大量数字化书籍和文档</p>
+                        <a href="https://archive.org/details/texts" target="_blank">访问网站 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-question-circle"></i> 常见问题</h2>
+                <p>快速解答您可能遇到的问题</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Z-Library 如何区别图书馆官网和诈骗网站？</h3>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>请拖动网站进度条到网站底部，没有<strong>微信和b站账户链接</strong>的站点均为诈骗网站。官方网址都明确标注了"官方地址"或"镜像地址"。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Z-Library 目前支持哪些电子书格式？</h3>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Z-Library 支持多种电子书格式，常见的有 PDF、EPUB、MOBI、TXT、DJVU、FB2、RTF、HTML 等，这些格式适用于不同的设备和阅读器。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>为什么 Z-Library 打不开？</h3>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>该网站的主域名在国内大概率是无法直接访问，大家暂时可以使用备用域名。需要注意的是，备用域名网页有很多的菜单按钮会调转到主域名，如果你在使用该网站时突然无法访问，这时候你就核对一下网站地址是否正确。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>Z-Library 要收费了吗？</h3>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>无需登录，访客用户每天可以免费下载五次。注册登录后每天就可以免费下载10次了。你也可以给该网站捐赠几块钱，就能成为VIP用户，无限次下载了。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h3>怎么解除 IP 下载限制？</h3>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>如果是手机，那么<strong>使用手机的移动数据访问，然后关闭移动数据几秒钟再重新打开</strong>，IP 地址就已经发生变化。如果是<strong>电脑，可以连接手机的热点</strong>，然后手机重复上述操作，IP 地址也会变化。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Z-Library导航. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://t.me/zlibrary_official" target="_blank">
+                        <i class="fab fa-telegram"></i> 官方TG频道
+                    </a>
+                    <a href="https://x.com/Z_Lib_official" target="_blank">
+                        <i class="fab fa-twitter"></i> 推特
+                    </a>
+                    <a href="https://www.reddit.com/r/zlibrary/" target="_blank">
+                        <i class="fab fa-reddit"></i> Reddit
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Toggle
+        function toggleFAQ(element) {
+            const faqItem = element.parentElement;
+            faqItem.classList.toggle('active');
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
