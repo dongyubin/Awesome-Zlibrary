@@ -436,7 +436,8 @@
             justify-content: space-between;
             align-items: center;
             background: var(--bg-secondary);
-            transition: background 0.3s ease;
+            transition: all 0.3s ease;
+            user-select: none;
         }
 
         .faq-question:hover {
@@ -461,12 +462,12 @@
             padding: 0 1.5rem;
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.3s ease, padding 0.3s ease;
+            transition: max-height 0.4s ease, padding 0.4s ease;
         }
 
         .faq-item.active .faq-answer {
             padding: 0 1.5rem 1.5rem;
-            max-height: 500px;
+            max-height: 1000px;
         }
 
         .faq-answer p {
@@ -503,11 +504,20 @@
             background: rgba(255, 255, 255, 0.1);
             border-radius: 20px;
             display: inline-block;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .favorite-tip p:hover {
-            background: rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.2);
             opacity: 1;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .favorite-tip p:active {
+            transform: translateY(0);
         }
 
         .footer-links {
@@ -1004,8 +1014,7 @@
             <div class="footer-content">
                 <p>&copy; 2026 Z-Library导航. All rights reserved.</p>
                 <div class="favorite-tip">
-                    <p onclick="addToFavorites()" style="cursor: pointer;">觉得很不错？点击收藏本网站！</p>
-                    <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.7;">或按住 Ctrl + D 键组合加入收藏夹</p>
+                    <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.7;">觉得很不错？按住 Ctrl + D 键组合收藏本网站加入收藏夹</p>
                 </div>
                 <div class="footer-links">
                     <a href="https://mastodon.social/@Z_Lib_official" target="_blank">
@@ -1029,6 +1038,13 @@
         // FAQ Toggle
         function toggleFAQ(element) {
             const faqItem = element.parentElement;
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-item.active').forEach(item => {
+                if (item !== faqItem) {
+                    item.classList.remove('active');
+                }
+            });
+            // Toggle current FAQ item
             faqItem.classList.toggle('active');
         }
 
@@ -1069,23 +1085,73 @@
             observer.observe(section);
         });
     }
-
-    // Add to favorites function
-    function addToFavorites() {
-        const title = 'Z-Library导航 - 官方镜像网站及替代平台合集';
-        const url = 'https://zlib.wwkejishe.top/';
-
-        if (window.sidebar) { // Firefox
-            window.sidebar.addPanel(title, url, '');
-        } else if (window.external) { // IE
-            window.external.AddFavorite(url, title);
-        } else if (window.opera && window.print) { // Opera
-            this.title = title;
-            return true;
-        } else { // Chrome, Safari
-            alert('请按住 Ctrl + D 键组合将本网站加入收藏夹');
+    // Show notification function
+    function showNotification(message) {
+        // Create notification element if it doesn't exist
+        let notification = document.getElementById('notification');
+        if (!notification) {
+            notification = document.createElement('div');
+            notification.id = 'notification';
+            notification.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: var(--primary);
+                color: white;
+                padding: 15px 20px;
+                border-radius: 8px;
+                box-shadow: var(--shadow-lg);
+                z-index: 1000;
+                max-width: 300px;
+                opacity: 0;
+                transform: translateY(20px);
+                transition: all 0.3s ease;
+                font-size: 14px;
+                line-height: 1.4;
+            `;
+            document.body.appendChild(notification);
         }
+
+        // Update message
+        notification.textContent = message;
+
+        // Show notification
+        setTimeout(() => {
+            notification.style.opacity = '1';
+            notification.style.transform = 'translateY(0)';
+        }, 10);
+
+        // Hide after 4 seconds
+        setTimeout(() => {
+            notification.style.opacity = '0';
+            notification.style.transform = 'translateY(20px)';
+        }, 4000);
     }
+    </script>
+
+    <!-- Backup FAQ script for better compatibility -->
+    <script>
+        // Alternative FAQ implementation
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    const isActive = faqItem.classList.contains('active');
+
+                    // Close all FAQ items
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        item.classList.remove('active');
+                    });
+
+                    // Open clicked item if it wasn't active
+                    if (!isActive) {
+                        faqItem.classList.add('active');
+                    }
+                });
+            });
+        });
     </script>
 </body>
 </html>
