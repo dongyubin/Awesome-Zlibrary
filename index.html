@@ -490,6 +490,26 @@
             opacity: 0.8;
         }
 
+        .favorite-tip {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .favorite-tip p {
+            color: white;
+            font-size: 0.95rem;
+            opacity: 0.9;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .favorite-tip p:hover {
+            background: rgba(255, 255, 255, 0.15);
+            opacity: 1;
+        }
+
         .footer-links {
             display: flex;
             justify-content: center;
@@ -983,6 +1003,10 @@
         <div class="container">
             <div class="footer-content">
                 <p>&copy; 2026 Z-Library导航. All rights reserved.</p>
+                <div class="favorite-tip">
+                    <p onclick="addToFavorites()" style="cursor: pointer;">觉得很不错？点击收藏本网站！</p>
+                    <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.7;">或按住 Ctrl + D 键组合加入收藏夹</p>
+                </div>
                 <div class="footer-links">
                     <a href="https://mastodon.social/@Z_Lib_official" target="_blank">
                         <i class="fab fa-mastodon"></i> Mastodon
@@ -1044,6 +1068,24 @@
             section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(section);
         });
+    }
+
+    // Add to favorites function
+    function addToFavorites() {
+        const title = 'Z-Library导航 - 官方镜像网站及替代平台合集';
+        const url = 'https://zlib.wwkejishe.top/';
+
+        if (window.sidebar) { // Firefox
+            window.sidebar.addPanel(title, url, '');
+        } else if (window.external) { // IE
+            window.external.AddFavorite(url, title);
+        } else if (window.opera && window.print) { // Opera
+            this.title = title;
+            return true;
+        } else { // Chrome, Safari
+            alert('请按住 Ctrl + D 键组合将本网站加入收藏夹');
+        }
+    }
     </script>
 </body>
 </html>
