@@ -1,0 +1,18 @@
+{
+  "name": "Z-Library官网入口与问题解决导航",
+  "short_name": "Z-Library导航",
+  "description": "Z-Library入口、打不开排查、DNS修改、客户端下载、找回地址、假站识别和替代网站导航。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "/files/zlibrary-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

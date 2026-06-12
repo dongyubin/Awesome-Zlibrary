@@ -2,29 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://zlib.wwkejishe.top/sitemap.xml
-
-# 禁止爬取的文件类型
-Disallow: *.pdf$
-Disallow: *.zip$
-Disallow: *.rar$
-Disallow: *.exe$
-
-# 禁止爬取的目录（如果有）
-Disallow: /admin/
-Disallow: /private/
-Disallow: /temp/
-
-# 禁止爬取带参数的URL（避免重复内容）
-Disallow: /*?*
-Disallow: /*&*
-
-# 允许爬取主要文件类型
-Allow: .html
-Allow: .css
-Allow: .js
-Allow: .jpg
-Allow: .jpeg
-Allow: .png
-Allow: .gif
-Allow: .svg
-Allow: .webp
