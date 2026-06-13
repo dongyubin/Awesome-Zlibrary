@@ -16,9 +16,11 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
 ## Zlibrary官方最新网址合集
 
-更新日期：**2026年3月14日**
+更新日期：**2026年6月13日**
 
 👉 [官方网址](https://mp.weixin.qq.com/s/LVQA8Z6aaQZBEuP9BbDwbw)（如何区别图书馆官网和诈骗网站？）
+
+- [官方客户端及离线种子](https://pan.quark.cn/s/4e0674678c59)
 
 > 尝试将DNS修改为1.1.1.1和1.0.0.1 ，修改后大多数地区可直接访问官方地址！
 >
@@ -26,6 +28,8 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
 | Zlibrary最新官方网址                                         | 国内网络是否能访问 |
 | ------------------------------------------------------------ | ------------------ |
+| [Z-Library – 世界上最大的电子图书馆。自由访问知识和文化。](https://zh.zlib.li/) | ✅（2026年6月13日） |
+| [Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.](https://z-library.gy/) | ✅（2026年3月14日） |
 | [Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.](https://z-lib.by/) | ✅（2026年3月13日） |
 | [https://zh.zlib.li/](https://zh.zlib.li/)                   | ✅（2026年1月17日） |
 | [https://zh.101wes.online/](https://zh.101wes.online/)       | ✅                  |
@@ -97,7 +101,7 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
 最新版官方 Zlibrary 客户端下载，支持 Windows 10+、macOS Big Sur+、Android
 
-- [国内网盘加速下载](https://pan.quark.cn/s/b0efe37e940c)：下载完将`.pdf` 改为下面后缀
+- [国内网盘加速下载](https://pan.quark.cn/s/4e0674678c59)：下载完将`.pdf` 改为下面后缀
     - app：安卓版本，后缀改为 `.apk`
     - MacOS：苹果电脑版本，后缀改为 `.dmg`
     - Windows：Windows电脑安装版本，改为 `.exe`
@@ -207,6 +211,48 @@ reddit：[https://www.reddit.com/r/zlibrary/](https://www.reddit.com/r/zlibrary/
 
 I2P：[http://zlib24th6ptyb4ibzn3tj2cndqafs6rhm4ed4gruxztaaco35lka.b32.i2p/](http://zlib24th6ptyb4ibzn3tj2cndqafs6rhm4ed4gruxztaaco35lka.b32.i2p/)
 
+## Zlibrary离线种子下载与使用方法
+
+### 方案一
+
+如果你仅想搜索中文电子书，可以用方案一
+
+#### 单纯种子
+
+先下载这个 zlibrary 全站电子书种子(约1800万本有种子+400万本无种子) 120MB：[夸克网盘](https://pan.quark.cn/s/12180ed3023c)
+
+然后下载这个检索用软件 Book Searcher 0.9.0 205MB：[夸克网盘](https://pan.quark.cn/s/23202aba5b36)
+
+虽然 zlibrary 整站有 1400 万左右可以通过种子文件下载，但事实上中文书仅占 126 万本左右，Book Searcher 这个离线软件只能检索中文电子书数据
+
+#### 资源搜索与下载方法
+
+安装好 Book Searcher 打开就可以直接搜索电子书了，虽然软件内提供了 IPFS 下载方式，但很可惜这个下载方法基本不可用了--我们还是用种子方式下载更靠谱
+
+以同济大学的《高等数学》这本书举例,我们可以得到它的ID是 2508380，7位数
+
+![Book Searcher搜索电子书种子](https://cdn.wwkejishe.top/wp-cdn-02/2026/20260315231617036.webp)
+
+拿着这个数字，根据数字区间去找一下刚刚让你下载的种子文件，很明显就在 pilimi-zlib-2380000-2829999.torrent 这份种子文件里面
+
+### 方案二
+
+先下载这个压缩包,然后解压出来
+
+zlibrary 全站电子书种子附索引(约1800万本有种子+400万本无种子)1.1GB：[夸克网盘](https://pan.quark.cn/s/4e0674678c59)、[百度网盘](https://pan.baidu.com/s/1HSSv5lPoOLEVPPjOFJ7iEw?pwd=wwkj)（提取码: wwkj）
+
+可以学习以下教程: 
+
+- [百度网盘加速下载技巧](https://www.wangdu.site/software/tools/948.html)
+
+资源搜索与下载方法
+
+1. 然后我们需要一个全文搜索软件,推荐使用 [Archivarius 3000](https://pan.quark.cn/s/4e0674678c59)，Archivarius 3000 软件下载安装之后，打开软件，点击「创建」索引，在我的电脑上右键，添加Z-Library全站电子书种子的文件夹
+2. 等待索引创建完毕之后，即可在 Archivarius 里面搜索你需要的电子书，然后就可以在右侧区域找到电子书的文件编号、文件格式，还有对应区间所在的种子文件了（分不清楚的话也可以左侧区域右键，打开Excel文件准确查看）
+3. torrent 文件可以[用迅雷/百度云/比特彗星等 BT 下载工具](https://www.wangdu.site/software/tools/592.html)下载，用迅雷的话，打开种子先点击一下按名称排序，接着自己慢慢翻到对应的文件下载，下载的话可能会比较慢，请耐心等待
+4. 我们下载下来后，会发现这是一个没有后缀格式的文件，我们查到这是一个 EPUB 文件，或者你可以右键文件选择打开方式，用记事本查看文件所对应的格式
+5. 自己给文件重命名添加正确后缀名之后就能正常打开文件了 🔥
+
 ## Zlibrary 替代网站
 
 [除了Zlibrary，你还可以使用这些网站下载Kindle电子书](https://www.wangdu.site/software/av-read/1378.html)
@@ -217,7 +263,7 @@ I2P：[http://zlib24th6ptyb4ibzn3tj2cndqafs6rhm4ed4gruxztaaco35lka.b32.i2p/](htt
 
 请拖动网站进度条到网站底部，没有**微信和b站账户链接**的站点均为诈骗网站哦
 
-![Z-Library 如何区别图书馆官网和诈骗网站？](https://cdn.wwkejishe.top/wp-cdn-02/2024/202411121046709.webp)
+![Z-Library 如何区别图书馆官网和诈骗网站？](https://cdn.wwkejishe.top/wp-cdn-02/2024/202411121046709.png)
 
 ### Z-Library 有哪些假站、仿冒的钓鱼网站？
 
