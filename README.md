@@ -16,9 +16,9 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
 ## Zlibrary官方最新网址合集
 
-更新日期：**2026年6月13日**
+更新日期：**2026年8月12日**
 
-👉 [官方网址](https://mp.weixin.qq.com/s/LVQA8Z6aaQZBEuP9BbDwbw)（如何区别图书馆官网和诈骗网站？）
+👉 [官方网址](https://zh.z-library.sk/)（需要富强网络）
 
 - [官方客户端及离线种子](https://pan.quark.cn/s/4e0674678c59)
 
