@@ -28,12 +28,16 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
 | Zlibrary最新官方网址                                         | 国内网络是否能访问 |
 | ------------------------------------------------------------ | ------------------ |
+| [http://z-lib.sk/](http://z-lib.sk/)                         | ✅                  |
+| [https://z-lib.fm](https://z-lib.fm/)                        | ✅                  |
+| [https://zh.z-lib.gd/](https://zh.z-lib.gd/)                 | ✅                  |
+| [https://z-library.website/](https://z-library.website/)     | ✅                  |
+| [https://z-library.qa/](https://z-library.qa/)               | ✅                  |
+| [https://z-library.im/](https://z-library.im/)               | ✅                  |
 | [Z-Library – 世界上最大的电子图书馆。自由访问知识和文化。](https://zh.zlib.li/) | ✅（2026年6月13日） |
 | [Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.](https://z-library.gy/) | ✅（2026年3月14日） |
 | [Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.](https://z-lib.by/) | ✅（2026年3月13日） |
 | [https://zh.zlib.li/](https://zh.zlib.li/)                   | ✅（2026年1月17日） |
-| [https://zh.101wes.online/](https://zh.101wes.online/)       | ✅                  |
-| [https://zh.z-lib.gd/](https://zh.z-lib.gd/)                 | ✅                  |
 | [https://zh.z-library.sk/](https://zh.z-library.sk/)         | ✅                  |
 | [https://zh.101su.ru/](https://zh.101su.ru/)                 | ✅                  |
 | [https://zh.intcn.online/](https://zh.intcn.online/)（官方地址） | ✅                  |
@@ -68,6 +72,7 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 | ~~[https://zh.zlibrary-east.se/](https://zh.zlibrary-east.se/)：富强~~ |
 | ~~[https://zh.z-library.se/](https://zh.z-library.se/)：富强~~ |
 | ~~[https://bk.hallowlib.org/](https://bk.hallowlib.org/)（需要[富强](https://github.com/dongyubin/Free-AppleId-Serve)上网）：可以搜索下载~~ |
+| ~~https://zh.101wes.online/~~                                |
 
 - ~~[使用 TOR 下载 Z-Library 资源](https://bbs.yibook.org/d/206-hui-fu-xia-zai-fang-shi-2-shi-yong-tor-xia-zai-z-library-zi-yuan)~~
 - ~~[通过 TG 机器人下载 Z-Library 书籍](https://bbs.yibook.org/d/220-hui-fu-xia-zai-fang-shi-1-tong-guo-tg-ji-qi-ren-xia-zai-z-library-shu-ji)~~
