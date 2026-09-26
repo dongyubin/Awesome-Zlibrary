@@ -2,11 +2,11 @@
 
 - [Z-Library最新网址发布页](https://zlib.wwkejishe.top/)（收藏防止迷路）
 
-Zlibrary 是一个全球最大的数字图书馆，它包含了 9,826,996 本电子书和 84,837,646 篇期刊文章，涵盖了文学著作、理工学科、人文艺术等多个领域。
+Zlibrary 是一个全球最大的数字图书馆，它包含了 9,826,996 本电子书和 84,837,646 篇期刊文章（社区统计口径，数字持续增长），涵盖了文学著作、理工学科、人文艺术等多个领域。
 
 Zlibrary的目标是为用户提供便捷且节省成本的方式来查找和下载各种类型的电子书籍和期刊文章
 
-Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管如此，Zlibrary 并未因此停止运营，而是通过其镜像站继续为用户提供服务。
+Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度无法访问，2023年2月其 .org 域名又被美国 FBI 查封。尽管如此，Zlibrary 并未因此停止运营，而是通过官方 single-login 域名和镜像站继续为用户提供服务。
 
 据了解，Zlibrary的镜像站不仅提供了官方的应用程序，而且还有不断更新的镜像网站集合
 
@@ -16,7 +16,7 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
 ## Zlibrary官方最新网址合集
 
-更新日期：**2026年8月20日**
+更新日期：**2026年9月26日**
 
 👉 [官方网址](https://zh.z-library.sk/)（需要富强网络）
 
@@ -26,33 +26,28 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 >
 > 将下面的官方地址粘贴到【[plainproxies](https://plainproxies.com/resources/free-web-proxy)】这个网站中，即可访问。如果出现登录账号后，无法打开里面的书籍，那就右键复制书籍链接，重新粘贴到【plainproxies】这个网站
 
-| Zlibrary最新官方网址                                         | 国内网络是否能访问 |
+| Z-Library 最新官方/镜像网址 | 国内网络是否能访问 |
 | ------------------------------------------------------------ | ------------------ |
 | [http://z-lib.sk/](http://z-lib.sk/)                         | ✅                  |
-| [https://z-lib.fm](https://z-lib.fm/)                        | ✅                  |
+| [https://z-lib.fm/](https://z-lib.fm/)                       | ✅                  |
 | [https://zh.z-lib.gd/](https://zh.z-lib.gd/)                 | ✅                  |
 | [https://z-library.website/](https://z-library.website/)     | ✅                  |
 | [https://z-library.qa/](https://z-library.qa/)               | ✅                  |
 | [https://z-library.im/](https://z-library.im/)               | ✅                  |
-| [Z-Library – 世界上最大的电子图书馆。自由访问知识和文化。](https://zh.zlib.li/) | ✅（2026年6月13日） |
-| [Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.](https://z-library.gy/) | ✅（2026年3月14日） |
-| [Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.](https://z-lib.by/) | ✅（2026年3月13日） |
-| [https://zh.zlib.li/](https://zh.zlib.li/)                   | ✅（2026年1月17日） |
+| [https://zh.zlib.li/](https://zh.zlib.li/)                   | ✅（2026年6月13日） |
+| [https://z-library.gy/](https://z-library.gy/)               | ✅（2026年3月14日） |
+| [https://z-lib.by/](https://z-lib.by/)                       | ✅（2026年3月13日） |
 | [https://zh.z-library.sk/](https://zh.z-library.sk/)         | ✅                  |
 | [https://zh.101su.ru/](https://zh.101su.ru/)                 | ✅                  |
 | [https://zh.intcn.online/](https://zh.intcn.online/)（官方地址） | ✅                  |
 | [https://zh.z-lib.rest/](https://zh.z-lib.rest/)（官方地址） | ✅                  |
 | [https://intl.su/](https://intl.su/)（镜像地址）             | ✅                  |
-| [https://zh.z-lib.fm/](https://zh.z-lib.fm/)（2024年11月12日） | 🚫                  |
+| [https://zh.z-lib.fm/](https://zh.z-lib.fm/)                 | 🚫（2024年11月12日） |
 | [https://zh.mongolian-books.sk/](https://zh.mongolian-books.sk/)（非官方镜像站点） | 🚫                  |
 | [https://101ml.fi/](https://101ml.fi/)                       | 🚫                  |
-| [https://z-lib.fm/](https://z-lib.fm/)                       | 🚫                  |
+| [https://z-lib.gs/](https://z-lib.gs/)                       | 🚫                  |
 | [https://zh.z-lib.gs/](https://zh.z-lib.gs/)                 | 🚫                  |
-| [https://zh.1lib.sk/](https://zh.1lib.sk/)                   | 🚫                  |
-| [https://z-lib.gs/](https://zh.z-lib.gs/)                    | 🚫                  |
-| [https://zh.z-lib.gs/](https://zh.z-lib.gs/)                 | 🚫                  |
-| https://1lib.sk                                              | 🚫                  |
-| [https://zh.z-lib.gd/](https://zh.z-lib.gd/)                 | 🚫                  |
+| [https://1lib.sk/](https://1lib.sk/)                         | 🚫                  |
 
 ### 官方网址最新（已失效）
 
@@ -176,7 +171,7 @@ Zlibrary在2023年3月因美国实施长臂管辖而关闭了其官网。尽管�
 
  
 
-### 注册成功Zlibraby后，直接登录
+### 注册成功Z-Library后，直接登录
 
 点击右上角“三”按钮，展开个人资料信息，显示自己名称，每天剩余下载次数
 
@@ -265,7 +260,10 @@ zlibrary 全站电子书种子附索引(约1800万本有种子+400万本无种�
 
 ## Zlibrary 替代网站
 
-[除了Zlibrary，你还可以使用这些网站下载Kindle电子书](https://www.wangdu.site/software/av-read/1378.html)
+除了 Z-Library，还有这些可以下载电子书的网站，已按类型整理：导航站、搜索引擎、影子图书馆等。
+
+- 仓库内完整清单：[Zlibrary替代网站.md](Zlibrary替代网站.md)（收录熊猫搜书、安娜的档案、Library Genesis、24h搜书、知搜等数十个站点）
+- 外部原文：[除了Zlibrary，你还可以使用这些网站下载Kindle电子书](https://www.wangdu.site/software/av-read/1378.html)
 
 ## Z-Library 常见问题
 
@@ -277,7 +275,7 @@ zlibrary 全站电子书种子附索引(约1800万本有种子+400万本无种�
 
 ### Z-Library 有哪些假站、仿冒的钓鱼网站？
 
-zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id 这几个网站在搜索引擎的搜索结果的顶部，都是**假网站**，千万要小心，这些网站可能会窃取您的个人信息并危及您的安权。另外z-library官网也提醒大家，最近一些人收到了一些假冒的“ Z-Library premium ”电子邮件，正在以 Zlibrary 官网的名义传播，内容是：关于获得终身高级会员资格。 Z-Library 是没有会员制的，一切让大家充值的都是骗子，千万谨记！
+zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id 这几个网站在搜索引擎的搜索结果的顶部，都是**假网站**，千万要小心，这些网站可能会窃取您的个人信息并危及您的安全。另外z-library官网也提醒大家，最近一些人收到了一些假冒的“ Z-Library premium ”电子邮件，正在以 Zlibrary 官网的名义传播，内容是：关于获得终身高级会员资格。 Z-Library 是没有会员制的，一切让大家充值的都是骗子，千万谨记！
 
 ### Z-Library 目前支持哪些电子书格式？
 
@@ -285,7 +283,7 @@ Z-Library 支持多种电子书格式，常见的有 **PDF**、**EPUB**、**MOBI
 
 ### 为什么 Z-Library 打不开
 
-该网站的主域名在国内大概率是无法直接访问，大家暂时可以使用备用域名。 需要注意的是，备用域名网页有很多的菜单按钮会调转到主域名，如果你在使用该网站时突然无法访问，这时候你就核对一下网站地址是否正确。 
+该网站的主域名在国内大概率是无法直接访问，大家暂时可以使用备用域名。 需要注意的是，备用域名网页有很多的菜单按钮会跳转到主域名，如果你在使用该网站时突然无法访问，这时候你就核对一下网站地址是否正确。 
 
 ![Zlibrary](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300902781.webp)
 
