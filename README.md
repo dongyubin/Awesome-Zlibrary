@@ -161,25 +161,25 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 
 **① 通过首页右上角点击“三”位置，再点击“登入”去注册**
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300911643.webp)
+![Z-Library 官网首页右上角菜单与登入入口](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300911643.webp)
 
 点击Create按钮
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300913069.webp)
+![Z-Library 登录弹窗点击 Create 按钮注册](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300913069.webp)
 
 **② 电子书的详情页点击“登录”按钮实现注册**
 
 输入书名搜索，并且点击进入详情页
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300915746.webp) 
+![搜索书名进入 Z-Library 电子书详情页](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300915746.webp) 
 
 点击登录按钮
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300915216.webp)
+![电子书详情页点击登录按钮](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300915216.webp)
 
 点击Create按钮
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300916044.webp)
+![详情页登录入口点击 Create 开始创建账号](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300916044.webp)
 
 输入邮箱，QQ邮箱、163邮箱等国内邮箱都可以
 
@@ -189,13 +189,13 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 
 后续登录是通过邮箱+密码登录
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300916501.webp)
+![填写邮箱、密码与账号名称完成 Z-Library 注册表单](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300916501.webp)
 
 收取验证码，填写验证，点击“Confirm and Create account”按钮，成功注册
 
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300917209.webp)
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300920457.webp)
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300920433.webp)
+![填写邮箱验证码并点击 Confirm and Create account](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300917209.webp)
+![Z-Library 注册成功界面截图（一）](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300920457.webp)
+![Z-Library 注册成功界面截图（二）](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300920433.webp)
 
  
 
@@ -224,7 +224,7 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 ### 成功下载到电脑上，打开电子书
 
 ![Zlibrary成功下载到电脑上](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300922526.webp)
-![Zlibrary官网如何注册，如何下载电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300923678.webp)
+![用阅读器打开下载完成的 Z-Library 电子书](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300923678.webp)
 
 如果需要在kindle上观看，则把文件发送到kindle指定邮箱转发就可以
 
@@ -313,7 +313,7 @@ Z-Library 支持多种电子书格式，常见的有 **PDF**、**EPUB**、**MOBI
 
 该网站的主域名在国内大概率是无法直接访问，大家暂时可以使用备用域名。 需要注意的是，备用域名网页有很多的菜单按钮会跳转到主域名，如果你在使用该网站时突然无法访问，这时候你就核对一下网站地址是否正确。 
 
-![Zlibrary](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300902781.webp)
+![Z-Library 主域名无法访问时核对备用域名地址栏](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300902781.webp)
 
 ### Z-Library要收费了吗？
 
