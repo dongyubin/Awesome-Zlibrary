@@ -14,6 +14,18 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 
 >如果国内网站不能访问，请切换 [富强](https://help.wwkejishe.top/free-shadowrocket) 网络试试
 
+## 快速跳转
+
+- [Zlibrary官方最新网址合集](#zlibrary官方最新网址合集)
+- [修改DNS访问Z-Library官网](#修改dns访问z-library官网)
+- [Zlibrary 客户端](#zlibrary-客户端)
+- [Zlibrary 第三方客户端](#zlibrary-第三方客户端)
+- [Zlibrary如何注册并下载电子书](#zlibrary如何注册并下载电子书)
+- [Zlibrary 官方通知频道](#zlibrary-官方通知频道)
+- [Zlibrary离线种子下载与使用方法](#zlibrary离线种子下载与使用方法)
+- [Zlibrary 替代网站](#zlibrary-替代网站)
+- [Z-Library 常见问题](#z-library-常见问题)
+
 ## Zlibrary官方最新网址合集
 
 更新日期：**2026年9月26日**
