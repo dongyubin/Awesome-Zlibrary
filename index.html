@@ -1418,6 +1418,7 @@
             </a>
             <nav class="nav-links" aria-label="页面内容导航">
                 <a href="#official-urls"><i class="fa-solid fa-link"></i>最新入口</a>
+                <a href="#plans-compare"><i class="fa-solid fa-scale-balanced"></i>方案对比</a>
                 <a href="#site-intro"><i class="fa-solid fa-circle-info"></i>网站介绍</a>
                 <a href="#site-features"><i class="fa-solid fa-star"></i>功能特点</a>
                 <a href="#cannot-open"><i class="fa-solid fa-triangle-exclamation"></i>打不开</a>
@@ -1600,12 +1601,105 @@
             </div>
         </section>
 
+        <section id="plans-compare">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <h2 data-eyebrow="ACCESS OPTIONS">Z-Library 访问方案对比</h2>
+                        <p>先按自己的网络情况选方案，再去下方入口表挑域名，比逐个试链接更快。免费额度以官网当前页面显示为准。</p>
+                    </div>
+                    <span class="tag warn"><i class="fa-regular fa-clock"></i> 2026-09-27 整理</span>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>访问方案</th>
+                                <th>需要魔法网络</th>
+                                <th>能否登录账号</th>
+                                <th>免费下载额度</th>
+                                <th>稳定性</th>
+                                <th>适合人群</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>国内可直连镜像域名（入口表 ✅ 项）</td>
+                                <td><span class="tag ok">不需要</span></td>
+                                <td>可以</td>
+                                <td>游客 5 次/日，注册后 10 次/日</td>
+                                <td>高（域名会轮换）</td>
+                                <td>绝大多数国内用户，首选</td>
+                            </tr>
+                            <tr>
+                                <td>修改本机 DNS 为 1.1.1.1 / 1.0.0.1</td>
+                                <td><span class="tag ok">不需要</span></td>
+                                <td>可以</td>
+                                <td>同上</td>
+                                <td>中（因地区和运营商而异）</td>
+                                <td>不愿装代理软件的用户</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://plainproxies.com/resources/free-web-proxy" target="_blank"
+                                        rel="noopener noreferrer nofollow">plainproxies 网页代理</a></td>
+                                <td><span class="tag ok">不需要</span></td>
+                                <td>可以（站内跳转需复制链接）</td>
+                                <td>同上</td>
+                                <td>中（免费代理较慢）</td>
+                                <td>临时应急查书、下载</td>
+                            </tr>
+                            <tr>
+                                <td>官方客户端（Windows / macOS / Android）</td>
+                                <td>视登录域名而定</td>
+                                <td>可以</td>
+                                <td>同上</td>
+                                <td>高</td>
+                                <td>习惯桌面端批量管理的用户</td>
+                            </tr>
+                            <tr>
+                                <td>第三方客户端 <a href="#client-download">O-lib</a></td>
+                                <td><span class="tag ok">不需要（免梯高速下载）</span></td>
+                                <td>需要填写当前可用域名后登录</td>
+                                <td>无次数限制</td>
+                                <td>中（开源项目持续更新）</td>
+                                <td>需要高速下载且接受第三方工具的用户</td>
+                            </tr>
+                            <tr>
+                                <td>全站离线种子（pilimi + BT 下载）</td>
+                                <td><span class="tag ok">不需要</span></td>
+                                <td>无需账号</td>
+                                <td>无限制（按种子分卷下载）</td>
+                                <td>中（单本命中率非 100%）</td>
+                                <td>想整站备份、收藏党的进阶用户</td>
+                            </tr>
+                            <tr>
+                                <td>替代网站（<a href="#alternatives">Anna's Archive 等</a>）</td>
+                                <td>Anna's Archive 需要</td>
+                                <td>各站规则不同</td>
+                                <td>各站规则不同</td>
+                                <td>高</td>
+                                <td>上述入口全部失效时的备胎</td>
+                            </tr>
+                            <tr>
+                                <td>TOR 洋葱服务 / TG 机器人</td>
+                                <td><span class="tag risk">需要</span></td>
+                                <td>—</td>
+                                <td>—</td>
+                                <td>🚫 已失效</td>
+                                <td>不再推荐</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
         <section id="official-urls">
             <div class="container">
                 <div class="section-head">
                     <div>
                         <h2 data-eyebrow="CURRENT ENTRIES">Z-Library最新可尝试入口</h2>
-                        <p>域名会随时间和网络环境变化。下方链接按“优先尝试、备用入口、可能需特殊网络环境”整理，访问前请自行核对页面真实性。</p>
+                        <p>域名会随时间和网络环境变化。下表与 GitHub README 同步维护，逐条标注类型与国内网络可访问性；状态为人工校验口径，访问前请自行核对页面真实性。</p>
                     </div>
                     <span class="tag warn"><i class="fa-regular fa-clock"></i> 2026-09-27 整理</span>
                 </div>
@@ -1615,51 +1709,129 @@
                             <tr>
                                 <th>入口地址</th>
                                 <th>类型</th>
-                                <th>使用建议</th>
+                                <th>国内网络可访问性</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><a href="https://z-lib.by/" target="_blank"
-                                        rel="noopener noreferrer">https://z-lib.by/</a></td>
-                                <td><span class="tag ok">优先尝试</span></td>
-                                <td>常见入口之一，适合先测试当前网络是否可访问。</td>
+                                <td><a href="http://z-lib.sk/" target="_blank"
+                                        rel="noopener noreferrer">http://z-lib.sk/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
                             </tr>
                             <tr>
-                                <td><a href="https://z-library.sk/" target="_blank"
-                                        rel="noopener noreferrer">https://z-library.sk/</a></td>
-                                <td><span class="tag ok">优先尝试</span></td>
-                                <td>常见入口之一，适合先测试当前网络是否可访问。</td>
-                            </tr>
-                            <tr>
-                                <td><a href="https://zh.zlib.li/" target="_blank"
-                                        rel="noopener noreferrer">https://zh.zlib.li/</a></td>
-                                <td><span class="tag ok">中文入口</span></td>
-                                <td>中文界面入口，若跳转失败请返回本页尝试其他地址。</td>
+                                <td><a href="https://z-lib.fm/" target="_blank"
+                                        rel="noopener noreferrer">https://z-lib.fm/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
                             </tr>
                             <tr>
                                 <td><a href="https://zh.z-lib.gd/" target="_blank"
                                         rel="noopener noreferrer">https://zh.z-lib.gd/</a></td>
-                                <td><span class="tag ok">备用入口</span></td>
-                                <td>适合作为主入口无法访问时的备用测试地址。</td>
+                                <td>中文入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://z-library.website/" target="_blank"
+                                        rel="noopener noreferrer">https://z-library.website/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://z-library.qa/" target="_blank"
+                                        rel="noopener noreferrer">https://z-library.qa/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://z-library.im/" target="_blank"
+                                        rel="noopener noreferrer">https://z-library.im/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://zh.zlib.li/" target="_blank"
+                                        rel="noopener noreferrer">https://zh.zlib.li/</a></td>
+                                <td>中文入口</td>
+                                <td><span class="tag ok">✅ 可直连（2026-06-13 校验）</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://z-library.gy/" target="_blank"
+                                        rel="noopener noreferrer">https://z-library.gy/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连（2026-03-14 校验）</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://z-lib.by/" target="_blank"
+                                        rel="noopener noreferrer">https://z-lib.by/</a></td>
+                                <td>官方入口</td>
+                                <td><span class="tag ok">✅ 可直连（2026-03-13 校验）</span></td>
                             </tr>
                             <tr>
                                 <td><a href="https://zh.z-library.sk/" target="_blank"
                                         rel="noopener noreferrer">https://zh.z-library.sk/</a></td>
-                                <td><span class="tag ok">备用入口</span></td>
-                                <td>若国内网络阻断，可先按 DNS 教程排查。</td>
+                                <td>中文入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://zh.101su.ru/" target="_blank"
+                                        rel="noopener noreferrer">https://zh.101su.ru/</a></td>
+                                <td>中文入口</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
                             </tr>
                             <tr>
                                 <td><a href="https://zh.intcn.online/" target="_blank"
                                         rel="noopener noreferrer">https://zh.intcn.online/</a></td>
-                                <td><span class="tag warn">可能波动</span></td>
-                                <td>网络环境差异较大，建议配合找回地址和官方渠道核对。</td>
+                                <td>官方地址</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
                             </tr>
                             <tr>
                                 <td><a href="https://zh.z-lib.rest/" target="_blank"
                                         rel="noopener noreferrer">https://zh.z-lib.rest/</a></td>
-                                <td><span class="tag warn">可能波动</span></td>
-                                <td>如无法打开，优先清理 DNS 缓存或换浏览器测试。</td>
+                                <td>官方地址</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://intl.su/" target="_blank"
+                                        rel="noopener noreferrer">https://intl.su/</a></td>
+                                <td>镜像地址</td>
+                                <td><span class="tag ok">✅ 可直连</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://zh.z-lib.fm/" target="_blank"
+                                        rel="noopener noreferrer">https://zh.z-lib.fm/</a></td>
+                                <td>中文入口</td>
+                                <td><span class="tag risk">🚫 不可访问（2024-11-12 校验）</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://zh.mongolian-books.sk/" target="_blank"
+                                        rel="noopener noreferrer">https://zh.mongolian-books.sk/</a></td>
+                                <td>非官方镜像站点</td>
+                                <td><span class="tag risk">🚫 不可访问</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://101ml.fi/" target="_blank"
+                                        rel="noopener noreferrer">https://101ml.fi/</a></td>
+                                <td>镜像地址</td>
+                                <td><span class="tag risk">🚫 不可访问</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://z-lib.gs/" target="_blank"
+                                        rel="noopener noreferrer">https://z-lib.gs/</a></td>
+                                <td>历史域名</td>
+                                <td><span class="tag risk">🚫 不可访问</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://zh.z-lib.gs/" target="_blank"
+                                        rel="noopener noreferrer">https://zh.z-lib.gs/</a></td>
+                                <td>历史域名</td>
+                                <td><span class="tag risk">🚫 不可访问</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://1lib.sk/" target="_blank"
+                                        rel="noopener noreferrer">https://1lib.sk/</a></td>
+                                <td>历史域名</td>
+                                <td><span class="tag risk">🚫 不可访问</span></td>
                             </tr>
                         </tbody>
                     </table>
