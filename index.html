@@ -968,6 +968,79 @@ td a:hover {
     border-radius: var(--radius-card);
 }
 
+/* ---------- 黑名单 ---------- */
+
+.blacklist {
+    margin-top: 16px;
+    padding: 18px;
+    background: var(--ink);
+    color: #f5efe4;
+    border-left: 6px solid #a43a2a;
+    border-radius: var(--radius-card);
+}
+
+.blacklist h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 6px;
+    font-family: var(--sans);
+    font-size: 16px;
+    color: #fff;
+}
+
+.blacklist h3 .ic {
+    color: #e2705d;
+}
+
+.blacklist .bl-sub {
+    margin: 0 0 12px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--loam);
+}
+
+.blacklist-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 12px;
+    padding: 12px 0;
+    border-top: 1px solid rgba(252, 250, 241, .12);
+}
+
+.blacklist-item code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+    color: var(--wheat);
+    background: rgba(252, 250, 241, .07);
+    border: 1px solid rgba(232, 182, 114, .35);
+    word-break: break-all;
+}
+
+.blacklist-item p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #e9e2d3;
+}
+
+.blacklist-tag {
+    display: inline-block;
+    margin: 8px 6px 0 0;
+    padding: 2px 9px;
+    border: 1px solid rgba(232, 182, 114, .45);
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--honey);
+}
+
+@media (max-width: 760px) {
+    .blacklist-item {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+}
+
 /* ---------- FAQ ---------- */
 
 .faq-grid {
@@ -1457,7 +1530,7 @@ details[open] summary .chev {
                 "description": "Z-Library官网入口、备用网址、打不开排查、DNS修改、客户端下载、网址找回、假站识别和替代电子书网站的一站式导航。",
                 "isPartOf": { "@id": "https://zlib.wwkejishe.top/#website" },
                 "inLanguage": "zh-CN",
-                "dateModified": "2026-10-11"
+                "dateModified": "2026-10-14"
             },
             {
                 "@type": "FAQPage",
@@ -1476,7 +1549,7 @@ details[open] summary .chev {
                         "name": "Z-Library 有哪些假站、仿冒的钓鱼网站？",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id 等域名常被用户反馈为高风险仿冒站。它们可能诱导充值、索要账号信息或传播假冒高级会员邮件。"
+                            "text": "zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id 等域名常被用户反馈为高风险仿冒站。它们可能诱导充值、索要账号信息或传播假冒高级会员邮件。z-lib.tv 属于非官方镜像，账号与官方不通用且注册需付费，已列入 Z 站黑名单。"
                         }
                     },
                     {
@@ -1594,7 +1667,7 @@ details[open] summary .chev {
     <section id="top" class="hero">
         <div class="container hero-grid">
             <div>
-                <span class="eyebrow"><span class="dot" aria-hidden="true"></span>更新日期：2026-10-11 · 入口与排查一站式整理</span>
+                <span class="eyebrow"><span class="dot" aria-hidden="true"></span>更新日期：2026-10-14 · 入口与排查一站式整理</span>
                 <h1><span class="nw">Z-Library</span><span class="nw">官网入口</span><span class="nw">与最新地址导航</span></h1>
                 <p class="lead">这里整理 Z-Library 最新可尝试入口、打不开怎么办、DNS
                     修改、客户端下载、网址找回、假站识别和电子书替代平台。页面目标是帮你按问题快速跳转，而不是在一堆链接里反复试错。</p>
@@ -2339,6 +2412,17 @@ details[open] summary .chev {
                 <div class="warning-box">
                     <strong>高风险信号：</strong>诱导购买“终身高级会员”、要求下载不明 APP、登录后账号资料不同步、索要邮箱验证码或付款信息、页面底部没有可核对的官方社交渠道、域名与官方公告不一致。
                 </div>
+                <div class="blacklist" id="blacklist">
+                    <h3><svg class="ic" aria-hidden="true"><use href="#i-x"></use></svg>Z 站黑名单（非官方镜像）</h3>
+                    <p class="bl-sub">以下域名不是 Z-Library 官方镜像：与官方账号体系不互通，注册和下载需要付费。官方从未推出付费会员制，不要在这些站点付款，也不要复用官方账号密码。</p>
+                    <div class="blacklist-item">
+                        <code>z-lib.tv</code>
+                        <div>
+                            <p>仿冒镜像站，提供 /zh 中文路径，界面仿照官方站点。登录后的书籍记录、书单和会员状态与官方均不通用；新用户被要求付费注册才能下载。</p>
+                            <span class="blacklist-tag">非官方镜像</span><span class="blacklist-tag">账号不通用</span><span class="blacklist-tag">付费注册</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="steps" style="margin-top:16px">
                     <div class="step">
                         <strong>先核对域名来源</strong>
@@ -2436,6 +2520,7 @@ details[open] summary .chev {
                         <div class="faq-answer">
                             <p><strong>zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id</strong>
                                 等域名常出现在搜索结果顶部，但被用户频繁反馈为高风险仿冒站。这类页面可能窃取个人信息、诱导充值，或传播假冒的 “Z-Library premium” 邮件。</p>
+                            <p><strong>z-lib.tv</strong> 已列入本站 Z 站黑名单：属于非官方镜像，账号与官方不通用，且注册下载需要付费。</p>
                             <p>Z-Library 没有所谓永久终身会员制；凡是强制让你充值、下载未知客户端或索要敏感信息的页面，都应优先当作风险页面处理。</p>
                         </div>
                     </details>
@@ -2496,7 +2581,7 @@ details[open] summary .chev {
             <div>
                 <strong>Z-Library导航</strong>
                 <p>本站仅提供公开入口整理、访问排查与替代资源导航，不托管任何电子书文件。请遵守所在地法律法规。</p>
-                <p class="small">Copyright © 2026 Z-Library导航 · Last updated: 2026-10-11</p>
+                <p class="small">Copyright © 2026 Z-Library导航 · Last updated: 2026-10-14</p>
             </div>
             <div>
                 <a href="books.html">赚钱理财书单</a>
