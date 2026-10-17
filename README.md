@@ -29,7 +29,7 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 
 ## Z-Library 访问方案对比
 
-更新日期：**2026年9月27日**（免费额度以官网当前页面显示为准）
+更新日期：**2026年10月16日**（免费额度以官网当前页面显示为准）
 
 | 访问方案 | 需要魔法网络 | 能否登录账号 | 免费下载额度 | 稳定性 | 适合人群 |
 | ------------------------------------------------------------ | ------------ | ------------ | ---------------------------- | ------ | -------- |
@@ -127,7 +127,7 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 
 ## Zlibrary 客户端
 
-最新版官方 Zlibrary 客户端下载，支持 Windows 10+、macOS Big Sur+、Android
+最新版官方 Zlibrary 客户端下载，共 4 种平台 5 个版本：Windows 10+、macOS Big Sur+、Linux、Windows 10+（便携版）、Android（版本构成参考书伴 2025-07 辨伪指南；缺少这些客户端的相似网站为假冒）
 
 - [国内网盘加速下载](https://pan.quark.cn/s/4e0674678c59)：下载完将`.pdf` 改为下面后缀
     - app：安卓版本，后缀改为 `.apk`
@@ -240,9 +240,17 @@ wiki：[https://en.wikipedia.org/wiki/Z-Library](https://en.wikipedia.org/wiki/Z
 
 reddit：[https://www.reddit.com/r/zlibrary/](https://www.reddit.com/r/zlibrary/)
 
+Mastodon：[https://mastodon.social/@Z_Lib_official](https://mastodon.social/@Z_Lib_official)
+
+Z-Access 官方访问页：[library-access.sk](https://library-access.sk/)（注意：该页一级域名只有 `.sk` 和 `.re` 两种，其余均为假冒；页面汇总桌面程序、浏览器扩展、Android、Telegram 机器人、神奇邮箱、有用链接 6 类访问方式）
+
+神奇邮箱（Magic Email）：用任意邮箱向 `blackbox@zbox.ph` 或 `blackbox@1delivery.re` 发送任意内容的邮件，即可收到回复的当前可访问网址；合法收信域名只有 `zbox.ph` 和 `1delivery.re` 两种。
+
 暗网地址：[http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion](http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion)
 
 I2P：[http://zlib24th6ptyb4ibzn3tj2cndqafs6rhm4ed4gruxztaaco35lka.b32.i2p/](http://zlib24th6ptyb4ibzn3tj2cndqafs6rhm4ed4gruxztaaco35lka.b32.i2p/)
+
+> Z-Access 与神奇邮箱信息来源于书伴《认准 Z-Library 最新网址，谨防假冒网站诈骗钱财和窃取密码》（[bookfere.com/post/1093.html](https://bookfere.com/post/1093.html)，更新于 2025-07-01）。
 
 ## Zlibrary离线种子下载与使用方法
 
@@ -301,6 +309,13 @@ zlibrary 全站电子书种子附索引(约1800万本有种子+400万本无种�
 
 ![Z-Library 如何区别图书馆官网和诈骗网站？](https://cdn.wwkejishe.top/wp-cdn-02/2024/202411121046709.png)
 
+进一步可用**服务构成**核验（参考书伴 2025-07 辨伪指南）：
+
+- 真站的 Z-Access 访问页一级域名只有 `.sk` 和 `.re` 两种，页面汇总桌面程序、浏览器扩展、Android、Telegram 机器人、神奇邮箱、有用链接 **6 类访问方式**，少于这个数量即为假冒；
+- 真站客户端覆盖 4 种平台 5 个版本：Windows 10+、macOS、Linux、Windows 10+（便携版）、Android；
+- 注册后每天 **10 本**免费下载额度、次日自动恢复，额度用完前**不需要任何付费**即可直接下载，下载位置不会出现明显的付费链接或按钮；
+- 官方只通过社交账号和 Telegram 与用户互动，**不通过邮件发通知**，收到 “Z-Library premium” 邮件即为钓鱼。
+
 ### Z-Library 有哪些假站、仿冒的钓鱼网站？
 
 zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id 这几个网站在搜索引擎的搜索结果的顶部，都是**假网站**，千万要小心，这些网站可能会窃取您的个人信息并危及您的安全。另外z-library官网也提醒大家，最近一些人收到了一些假冒的“ Z-Library premium ”电子邮件，正在以 Zlibrary 官网的名义传播，内容是：关于获得终身高级会员资格。 Z-Library 是没有会员制的，一切让大家充值的都是骗子，千万谨记！
@@ -312,6 +327,12 @@ zlibrary.to、zlibrary.st、z-lib.is、z-lib.io、z-lib.id 这几个网站在搜
 | 域名 | 风险 |
 | --- | --- |
 | z-lib.tv | 非官方镜像，提供 /zh 中文路径，界面仿照官方站点；书籍记录、书单和会员状态与官方不通用；新用户被要求付费注册才能下载 |
+
+### 在 Z-Library 假站注册或付款了怎么办？
+
+密码可能已经泄露：**立即修改该账号密码，凡是复用同一密码的邮箱、网盘、支付账号等服务全部一并更换**；支持双重验证（2FA）的服务务必开启，不要在未知主体运营的网站使用常用密码。
+
+财产损失方面：真站不付费每天也能下载 10 本电子书，向诱导充值的仿冒站付款没有任何保障，付款前多试用几天再判断。
 
 ### Z-Library 目前支持哪些电子书格式？
 
@@ -325,7 +346,7 @@ Z-Library 支持多种电子书格式，常见的有 **PDF**、**EPUB**、**MOBI
 
 ### Z-Library要收费了吗？
 
-无需登录，访客用户每天可以免费下载五次。注册登录后每天就可以免费下载10次了。你也可以给该网站捐赠几块钱，就能成为VIP用户，无限次下载了~ 
+无需登录，访客用户每天可以免费下载五次。注册登录后每天就可以免费下载10次了，额度次日自动恢复。按官方步骤创建私人 Telegram 机器人后，每日额度可提升至 **20 本**，无需访问网站即可在会话中检索和获取电子书。你也可以给该网站捐赠几块钱，就能成为VIP用户，无限次下载了~
 
 ![Zlibrary套餐](https://b2.wwkejishe.top/WP-CDN-02/2024/202406300902321.webp)
 

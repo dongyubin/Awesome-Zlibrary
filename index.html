@@ -1530,7 +1530,7 @@ details[open] summary .chev {
                 "description": "Z-Library官网入口、备用网址、打不开排查、DNS修改、客户端下载、网址找回、假站识别和替代电子书网站的一站式导航。",
                 "isPartOf": { "@id": "https://zlib.wwkejishe.top/#website" },
                 "inLanguage": "zh-CN",
-                "dateModified": "2026-10-14"
+                "dateModified": "2026-10-16"
             },
             {
                 "@type": "FAQPage",
@@ -1541,7 +1541,7 @@ details[open] summary .chev {
                         "name": "Z-Library 如何区别图书馆官网和诈骗网站？",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "可以拖动页面到底部核对官方社交入口。没有微信、B站或可核对官方社交链接的站点要谨慎，不要在可疑页面输入邮箱验证码或下载未知安装包。"
+                            "text": "可以拖动页面到底部核对官方社交入口。没有微信、B站或可核对官方社交链接的站点要谨慎，不要在可疑页面输入邮箱验证码或下载未知安装包。进一步可核对服务构成：真站 Z-Access 页的一级域名仅为 .sk 或 .re，汇总 6 类访问方式；客户端覆盖 4 种平台 5 个版本；注册后每天 10 本免费额度且额度用完前无付费提示。缺任何一项的相似网站应视为仿冒。"
                         }
                     },
                     {
@@ -1573,7 +1573,15 @@ details[open] summary .chev {
                         "name": "Z-Library 要收费了吗？",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "访客用户通常每天可以免费下载五次，注册登录后每天可免费下载十次。页面若强制诱导购买终身高级会员或发送假冒 Z-Library premium 邮件，应优先视为风险信号。"
+                            "text": "访客用户通常每天可以免费下载五次，注册登录后每天可免费下载十次，额度次日自动恢复；创建私人 Telegram 机器人后每日额度可提升至二十本。页面若强制诱导购买终身高级会员或发送假冒 Z-Library premium 邮件，应优先视为风险信号。"
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "在 Z-Library 假站注册或付款了怎么办？",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "立即修改该账号密码，并更换所有复用同一密码的服务，可用时开启双重验证。真站不付费每天也能下载十本电子书，向诱导充值的仿冒站付款没有保障。官方不通过邮件发送会员通知，收到所谓 premium 邮件应按钓鱼处理。"
                         }
                     },
                     {
@@ -1667,7 +1675,7 @@ details[open] summary .chev {
     <section id="top" class="hero">
         <div class="container hero-grid">
             <div>
-                <span class="eyebrow"><span class="dot" aria-hidden="true"></span>更新日期：2026-10-14 · 入口与排查一站式整理</span>
+                <span class="eyebrow"><span class="dot" aria-hidden="true"></span>更新日期：2026-10-16 · 入口与排查一站式整理</span>
                 <h1><span class="nw">Z-Library</span><span class="nw">官网入口</span><span class="nw">与最新地址导航</span></h1>
                 <p class="lead">这里整理 Z-Library 最新可尝试入口、打不开怎么办、DNS
                     修改、客户端下载、网址找回、假站识别和电子书替代平台。页面目标是帮你按问题快速跳转，而不是在一堆链接里反复试错。</p>
@@ -2173,7 +2181,21 @@ details[open] summary .chev {
                         <a class="visit" href="https://www.reddit.com/r/zlibrary/" target="_blank"
                             rel="noopener noreferrer nofollow">进入社区 <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
                     </article>
+                    <article class="entry-card">
+                        <span class="icon green"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-route"></use></svg></span>
+                        <h3>Z-Access 官方访问页</h3>
+                        <p>官方为抵消域名查封提供的总入口，汇总桌面程序、浏览器扩展、Android、Telegram 机器人、神奇邮箱和有用链接共 6 类访问方式。注意该页一级域名只有 <code>.sk</code> 和 <code>.re</code> 两种，其余均为假冒。</p>
+                        <a class="visit" href="https://library-access.sk/" target="_blank"
+                            rel="noopener noreferrer nofollow">打开 Z-Access <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
+                    </article>
+                    <article class="entry-card">
+                        <span class="icon amber"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-file"></use></svg></span>
+                        <h3>神奇邮箱（Magic Email）</h3>
+                        <p>用任意邮箱向官方邮箱发送一封空邮件或任意内容，即可收到回复的当前可访问网址。合法收信域名只有 <code>zbox.ph</code> 和 <code>1delivery.re</code> 两种，其他发件域名一律不信任。</p>
+                        <a class="visit" href="mailto:blackbox@zbox.ph">发送邮件索取地址 <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
+                    </article>
                 </div>
+                <p class="small">Z-Access 与神奇邮箱信息参考书伴《认准 Z-Library 最新网址，谨防假冒网站诈骗钱财和窃取密码》（<a href="https://bookfere.com/post/1093.html" target="_blank" rel="noopener noreferrer nofollow">bookfere.com/post/1093.html</a>，更新于 2025-07-01）。</p>
             </div>
         </section>
 
@@ -2192,7 +2214,7 @@ details[open] summary .chev {
                             <span class="tag warn">多平台</span>
                         </div>
                         <h3>官方客户端合集</h3>
-                        <p>支持 Windows、macOS、Android。下载后请核对来源和文件后缀，不要运行未知来源安装包。</p>
+                        <p>共 4 种平台 5 个版本：Windows 10+、macOS、Linux、Windows 便携版、Android。下载后请核对来源和文件后缀，不要运行未知来源安装包。</p>
                         <a class="visit" href="https://pan.quark.cn/s/4e0674678c59" target="_blank"
                             rel="noopener noreferrer nofollow">查看网盘链接 <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
 
@@ -2436,6 +2458,21 @@ details[open] summary .chev {
                         <strong>用小号测试</strong>
                         如果必须登录，优先使用非重要邮箱，并确认页面是否能同步历史记录和账号资料。
                     </div>
+                    <div class="step">
+                        <strong>核对额度与付费提示</strong>
+                        真站注册后每天提供 10 本免费下载额度，次日自动恢复，额度用完前下载不收费；下载位置出现明显的付费链接或按钮，基本可判定为仿冒站。
+                    </div>
+                    <div class="step">
+                        <strong>核对服务构成</strong>
+                        真站提供 4 种平台 5 个版本的客户端（Windows 10+、macOS、Linux、Windows 便携版、Android），Z-Access 页汇总 6 类访问方式；缺少这些服务的相似网站为假冒。
+                    </div>
+                    <div class="step">
+                        <strong>官方不发通知邮件</strong>
+                        Z-Library 只通过社交账号和 Telegram 与用户互动；收到所谓 “Z-Library premium” 或终身会员邮件，应按钓鱼邮件处理。
+                    </div>
+                </div>
+                <div class="warning-box" style="margin-top:16px">
+                    <strong>在假站注册或付款过怎么办：</strong>立即修改该账号密码，凡是复用同一密码的其他服务一并更换；可用时开启双重验证（2FA）。付费前克制“急切得到”的冲动——真站不付费每天也能下载 10 本，向不明主体付款没有任何保障。
                 </div>
             </div>
         </section>
@@ -2507,6 +2544,7 @@ details[open] summary .chev {
                         <summary>Z-Library 如何区别图书馆官网和诈骗网站？ <svg class="ic chev" aria-hidden="true" focusable="false"><use href="#i-chev"></use></svg></summary>
                         <div class="faq-answer">
                             <p>请拖动网站进度条到网站底部，核对是否有可验证的官方社交入口。没有微信、B站或官方社交链接的站点要格外谨慎，不要输入邮箱验证码、付款信息或下载未知安装包。</p>
+                            <p>进一步可用“服务构成”核验：真站的 Z-Access 页（一级域名仅 <code>.sk</code> 或 <code>.re</code>）汇总桌面程序、浏览器扩展、Android、Telegram 机器人、神奇邮箱、有用链接 6 类访问方式；客户端覆盖 Windows 10+、macOS、Linux、Windows 便携版、Android 共 5 个版本；注册后每天 10 本免费额度、额度用完前无任何付费提示。缺任何一项的相似网站都应视为仿冒。</p>
                             <figure class="faq-media">
                                 <img src="https://cdn.wwkejishe.top/wp-cdn-02/2024/202411121046709.png"
                                     alt="Z-Library 官网底部官方社交入口识别截图" loading="lazy" decoding="async"
@@ -2522,6 +2560,13 @@ details[open] summary .chev {
                                 等域名常出现在搜索结果顶部，但被用户频繁反馈为高风险仿冒站。这类页面可能窃取个人信息、诱导充值，或传播假冒的 “Z-Library premium” 邮件。</p>
                             <p><strong>z-lib.tv</strong> 已列入本站 Z 站黑名单：属于非官方镜像，账号与官方不通用，且注册下载需要付费。</p>
                             <p>Z-Library 没有所谓永久终身会员制；凡是强制让你充值、下载未知客户端或索要敏感信息的页面，都应优先当作风险页面处理。</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>在 Z-Library 假站注册或付款了怎么办？ <svg class="ic chev" aria-hidden="true" focusable="false"><use href="#i-chev"></use></svg></summary>
+                        <div class="faq-answer">
+                            <p>密码可能已经泄露：立即修改该账号密码，凡是复用同一密码的邮箱、网盘、支付账号等服务全部一并更换；支持双重验证（2FA）的服务务必开启。不要在未知主体运营的网站使用常用密码。</p>
+                            <p>财产损失方面：真站不付费每天也能下载 10 本电子书，向诱导充值的仿冒站付款没有任何保障，付款前多试用几天再判断。官方从不通过邮件发送会员通知，收到所谓 “Z-Library premium” 邮件直接按钓鱼处理。</p>
                         </div>
                     </details>
                     <details class="faq-item">
@@ -2547,7 +2592,7 @@ details[open] summary .chev {
                     <details class="faq-item">
                         <summary>Z-Library 要收费了吗？ <svg class="ic chev" aria-hidden="true" focusable="false"><use href="#i-chev"></use></svg></summary>
                         <div class="faq-answer">
-                            <p>无需登录时，访客用户通常每天可以免费下载五次；注册登录后，每天可免费下载十次。官方页面可能存在捐赠或额度机制，但如果某个页面强制你购买“终身高级会员”，或用邮件宣传
+                            <p>无需登录时，访客用户通常每天可以免费下载五次；注册登录后，每天可免费下载十次，额度次日自动恢复。按官方步骤创建私人 Telegram 机器人后，每日额度可提升至二十本，无需访问网站即可在会话中检索和获取电子书。官方页面可能存在捐赠或额度机制，但如果某个页面强制你购买“终身高级会员”，或用邮件宣传
                                 “Z-Library premium”，请优先核对官方渠道，谨防诈骗。</p>
                             <figure class="faq-media">
                                 <img src="https://b2.wwkejishe.top/WP-CDN-02/2024/202406300902321.webp"
@@ -2581,7 +2626,7 @@ details[open] summary .chev {
             <div>
                 <strong>Z-Library导航</strong>
                 <p>本站仅提供公开入口整理、访问排查与替代资源导航，不托管任何电子书文件。请遵守所在地法律法规。</p>
-                <p class="small">Copyright © 2026 Z-Library导航 · Last updated: 2026-10-14</p>
+                <p class="small">Copyright © 2026 Z-Library导航 · Last updated: 2026-10-16</p>
             </div>
             <div>
                 <a href="books.html">赚钱理财书单</a>
