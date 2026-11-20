@@ -1644,6 +1644,7 @@ details[open] summary .chev {
         <symbol id="i-atlas" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-1.6-8-1v12c3-.6 6-.5 8 1 2-1.5 5-1.6 8-1V5c-3-.6-6-.5-8 1z"/><path d="M12 6v12"/></symbol>
         <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M15.5 5.5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2"/></symbol>
         <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></symbol>
+        <symbol id="i-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></symbol>
     </svg>
     <header class="topbar">
         <div class="container nav" aria-label="站内导航">
@@ -1675,7 +1676,7 @@ details[open] summary .chev {
     <section id="top" class="hero">
         <div class="container hero-grid">
             <div>
-                <span class="eyebrow"><span class="dot" aria-hidden="true"></span>更新日期：2026-10-16 · 入口与排查一站式整理</span>
+                <span class="eyebrow"><span class="dot" aria-hidden="true"></span>更新日期：2026-11-20 · 入口与排查一站式整理</span>
                 <h1><span class="nw">Z-Library</span><span class="nw">官网入口</span><span class="nw">与最新地址导航</span></h1>
                 <p class="lead">这里整理 Z-Library 最新可尝试入口、打不开怎么办、DNS
                     修改、客户端下载、网址找回、假站识别和电子书替代平台。页面目标是帮你按问题快速跳转，而不是在一堆链接里反复试错。</p>
@@ -1743,7 +1744,7 @@ details[open] summary .chev {
                     <a class="solve-card" href="#client-download">
                         <span class="icon"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-laptop"></use></svg></span>
                         <h3>下载客户端</h3>
-                        <p>获取官方客户端、O-lib 开源客户端和多端使用说明。</p>
+                        <p>获取官方客户端、O-lib 与 zlib 开源客户端和多端使用说明。</p>
                     </a>
                     <a class="solve-card" href="#register-download">
                         <span class="icon amber"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-book"></use></svg></span>
@@ -1903,6 +1904,14 @@ details[open] summary .chev {
                                 <td>无次数限制</td>
                                 <td>中（开源项目持续更新）</td>
                                 <td>需要高速下载且接受第三方工具的用户</td>
+                            </tr>
+                            <tr>
+                                <td>第三方命令行客户端 <a href="#client-download">zlib</a></td>
+                                <td>视域名而定（doctor 探测，支持代理）</td>
+                                <td>需要（zlib login）</td>
+                                <td>同官方账号额度（注册 10 次/日）</td>
+                                <td>中（开源项目持续更新）</td>
+                                <td>习惯终端、要推送 Kindle/微信读书或接 AI agent 的进阶用户</td>
                             </tr>
                             <tr>
                                 <td>全站离线种子（pilimi + BT 下载）</td>
@@ -2240,6 +2249,18 @@ details[open] summary .chev {
                         <p>包含 Windows、macOS、Android 等版本的第三方客户端备份。</p>
                         <a class="visit" href="https://pan.quark.cn/s/268c69879bb8" target="_blank"
                             rel="noopener noreferrer nofollow">查看网盘链接 <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
+                    </article>
+                    <article class="entry-card">
+                        <div class="entry-meta">
+                            <span class="icon green"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-terminal"></use></svg></span>
+                            <span class="tag ok">开源 · 命令行</span>
+                        </div>
+                        <h3>zlib 命令行客户端</h3>
+                        <p>Go 写的开源 Z-Library 命令行工具（MIT）。TUI 搜书下载、推送 Kindle/微信读书、接 AI agent（MCP），<code>zlib doctor</code> 自动探测可用镜像。需 Z-Library 账号，额度跟随官方账号。</p>
+                        <a class="visit" href="https://github.com/heartleo/zlib" target="_blank"
+                            rel="noopener noreferrer nofollow">打开 GitHub <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
+                        <a class="visit" href="https://github.com/heartleo/zlib/releases/latest" target="_blank"
+                            rel="noopener noreferrer nofollow">下载 Releases <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-external"></use></svg></a>
                     </article>
                 </div>
             </div>

@@ -29,7 +29,7 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 
 ## Z-Library 访问方案对比
 
-更新日期：**2026年10月16日**（免费额度以官网当前页面显示为准）
+更新日期：**2026年11月20日**（免费额度以官网当前页面显示为准）
 
 | 访问方案 | 需要魔法网络 | 能否登录账号 | 免费下载额度 | 稳定性 | 适合人群 |
 | ------------------------------------------------------------ | ------------ | ------------ | ---------------------------- | ------ | -------- |
@@ -38,6 +38,7 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 | [plainproxies](https://plainproxies.com/resources/free-web-proxy) 网页代理 | ❌ 不需要 | ✅ 可以（站内跳转需复制链接） | 同上 | 中（免费代理较慢） | 临时应急查书、下载 |
 | 官方客户端（Windows / macOS / Android） | 视登录域名而定 | ✅ 可以 | 同上 | 高 | 习惯桌面端批量管理的用户 |
 | 第三方客户端 [O-lib](#zlibrary-第三方客户端) | ❌ 不需要（免梯高速下载） | ✅ 需要填写当前可用域名后登录 | 无次数限制 | 中（开源项目持续更新） | 需要高速下载且接受第三方工具的用户 |
+| 第三方命令行客户端 [zlib](#zlibrary-第三方客户端) | 视域名而定（doctor 探测，支持代理） | ✅ 需要（zlib login） | 同官方账号额度（注册 10 次/日） | 中（开源项目持续更新） | 习惯终端、要推送 Kindle/微信读书或接 AI agent 的进阶用户 |
 | 全站离线种子（pilimi + BT 下载） | ❌ 不需要 | ❌ 无需账号 | 无限制（按种子分卷下载） | 中（单本命中率非 100%） | 想整站备份、收藏党的进阶用户 |
 | 替代网站（[安娜的档案](https://zh.annas-archive.org/) 等） | 安娜的档案需要 | 各站规则不同 | 各站规则不同 | 高 | 上述入口全部失效时的备胎 |
 | TOR 洋葱服务 / TG 机器人 | ✅ 需要 | — | — | 🚫 已失效 | 不再推荐，见下文归档 |
@@ -152,6 +153,39 @@ Zlibrary在2022年11月遭美国邮政检查局（USPIS）查封域名后一度�
 - **快速搜索功能**：提供快速方便的搜索功能，帮助用户迅速找到所需图书.
 - **自定义存储位置**：用户可以自定义图书文件的存储位置，便于管理和访问.
 - **持续优化**：软件持续进行优化，不断提升用户体验.
+
+### zlib（heartleo）
+
+[heartleo/zlib](https://github.com/heartleo/zlib) 是一个用 Go 写的开源 Z-Library 命令行客户端（MIT 协议，2500+ 星，持续更新）。和 O-lib 的图形界面不同，它走终端路线：既有全屏 TUI 界面（`zlib tui`），也能直接用命令行搜索下载，适合习惯终端、想把找书接进自动化流程的用户。
+
+几个 O-lib 没有的功能：
+
+- **推送到 Kindle 和微信读书**：`zlib kindle send ./book.epub`、`zlib weread import ./book.epub`，下载完直接进阅读器书架。
+- **接 AI agent**：给 Claude Code、Codex、Grok 装插件或注册 MCP 服务（`zlib mcp`），让 AI 帮你搜书下载；加 `--read-only` 可只读、禁用下载和推送。
+- **自动探测可用镜像**：`zlib doctor` 找出当前网络能访问的域名，也支持代理和自建镜像，不用自己一个个试。
+
+安装（任选其一，装好的命令都叫 `zlib`）：
+
+```bash
+# macOS / Linux（Homebrew）
+brew install heartleo/tap/zlib-cli
+# Windows（winget）
+winget install --id heartleo.zlib --exact
+```
+
+也可以从 [官方 Releases](https://github.com/heartleo/zlib/releases/latest) 下载二进制放进 PATH。
+
+快速上手（需要 Z-Library 账号）：
+
+```bash
+zlib doctor                              # 探测当前可用的镜像域名
+zlib login --domain <doctor 给出的域名>    # 按提示输入邮箱和密码，登录保存在本机
+zlib tui                                 # 打开终端界面：按 / 搜索，Enter 确认下载
+```
+
+不想进界面也能直接命令行搜书：`zlib search "书名" --ext epub`，加 `--json` 方便脚本处理；`zlib profile` 查当天剩余下载额度。
+
+> 前提和 O-lib 一样：要有 Z-Library 账号，并填一个当前能访问的域名（域名会轮换，用 `zlib doctor` 探测）。它是命令行工具，上手门槛比图形界面高；下载额度跟随你的官方账号（注册后每天 10 次）。
 
 ## Zlibrary如何注册并下载电子书
 
